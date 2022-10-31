@@ -171,7 +171,7 @@
 
 .edit-mode__item .task-text__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode__item .task__label {
