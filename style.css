@@ -34,7 +34,7 @@
   margin: 0 auto 0;
 }
 
-.add-task__input,
+.task__input_add,
 .task__label,
 .task-text__input {
   width: 56%;
@@ -77,7 +77,7 @@
 
 /* Heading */
 .subtitle,
-.add-task__title {
+.task__title_add {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -88,7 +88,7 @@
 }
 
 .task-text__input,
-.add-task__input {
+.task__input_add {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -102,17 +102,17 @@
 }
 
 .task-text__input:focus,
-.add-task__input:focus {
+.task__input_add:focus {
   color: #333;
 }
 
 /* New Task */
-.add-task__title {
+.task__title_add {
   display: block;
   margin: 0 0 20px;
 }
 
-.add-task__input {
+.task__input_add {
   width: 318px;
 }
 
@@ -132,7 +132,7 @@
   vertical-align: middle;
 }
 
-.task-checkbox__input {
+.task__input_checkbox {
   margin: 0 10px;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .task-text__input,
-.add-task__input {
+.task__input_add {
   width: 226px;
 }
 

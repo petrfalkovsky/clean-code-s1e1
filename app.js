@@ -7,7 +7,7 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput = document.querySelector('.add-task__input');//Add a new task.
+var taskInput = document.querySelector('.task__input_add');//Add a new task.
 var addButton = document.getElementsByTagName('button')[0];//first button
 var incompleteTaskHolder = document.querySelector('.incomplete__list');//ul of #incompleteTasks
 var completedTasksHolder = document.querySelector('.tasks-completed__list');//completed-tasks
@@ -38,7 +38,7 @@ var createNewTaskElement = function(taskString){
 
   //Each elements, needs appending
   checkBox.type = 'checkbox';
-  checkBox.className = 'task__input task-checkbox__input';
+  checkBox.className = 'task__input task__input_checkbox';
 
   editInput.type = 'text';
   editInput.className = 'task__input task-text__input';
@@ -160,7 +160,7 @@ addButton.addEventListener('click',ajaxRequest);
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
   console.log("bind list item events");
 //select ListItems children
-  var checkBox = taskListItem.querySelector('.task-checkbox__input');
+  var checkBox = taskListItem.querySelector('.task__input_checkbox');
   var editButton = taskListItem.querySelector('.button-edit');
   var deleteButton = taskListItem.querySelector('.button-delete');
 
